@@ -1,0 +1,35 @@
+#todoList {
+	width: 500px;
+}
+
+#todoList .card div {
+	padding: 12px 8px;
+}
+
+.todo {
+	border: #8ebece solid 1.5px;
+	background-color: #91dee6;
+	text-align: left;
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+	padding: 8px !important;
+}
+
+.todo:last-child {
+	margin: 0;
+}
+
+.todo span:first-child {
+	flex: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.todoList-delete-button {
+	background-color: #1c3eba;
+	height: 40px;
+	width: 40px;
+	border: none !important;
+}
